@@ -1,0 +1,30 @@
+{
+  "name": "pressurizer drill",
+  "description": "a drill that uses water and pressure to mine ores.",
+  "type": "Drill",
+  "size": 2,
+  "liquidCapacity": 300,
+  "tier": 5,
+  "drillTime": 10,
+  "consumes": {
+  "power": 20,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "metaglass",
+      "amount": 10
+    }
+    {
+      "item": "silicon",
+      "amount":100
+},
+  ],
+  "category": "production",
+  "research": "drill"
+}

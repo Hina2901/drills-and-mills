@@ -1,0 +1,30 @@
+{
+  "name": "drill",
+  "description": "A cheap drill for everything.",
+  "type": "Drill",
+  "size": 2,
+  "liquidCapacity": 300,
+  "tier": 5,
+  "drillTime": 200,
+  "consumes": {
+  "power": 20,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "diamond",
+      "amount": 99
+    }
+    {
+      "item": "stone",
+      "amount":100
+},
+  ],
+  "category": "production",
+  "research": "mod-gate-production"
+}

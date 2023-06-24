@@ -1,0 +1,50 @@
+{ 
+"name": "Complicated Drill", 
+"description": "An even better airblast drill that needs cryofluid to run. Cannot mine sand as it would break.", 
+"type": "Drill", 
+"blockedItem": "sand",
+  "updateEffectChance": 0.1,
+  "drawMineItem": false,
+  "warmupSpeed": 0.0025,
+"size": 3, 
+"updateEffect": 
+    {
+      "type": "ParticleEffect",
+      "particles": 8,
+      "line": true,
+      "sizeFrom": 1,
+      "sizeTo": 2,
+      "interp": "pow2Out"
+      "colorFrom": "61018a",
+      "colorTo": "b200ff"
+},
+"hasPower": true, 
+"drawRim": true, 
+"hasLiquids": true, 
+"liquidCapacity": 40, 
+"hasItems": true, 
+"itemCapacity": 60, 
+"tier": 5, 
+"drillTime": 40, 
+"rotateSpeed": 12, 
+"liquidBoostIntensity": 1.3,
+"consumes": { 
+"power": 4, 
+"liquid": {
+ "liquid": "cryofluid", 
+"amount": 0.09,
+ "optional": false, 
+"booster": false,
+}
+ }, 
+"requirements": [
+  { "item": "copper", "amount": 130 },
+  { "item": "silicon", "amount": 120 }, 
+  { "item": "titanium", "amount": 100 },
+  { "item": "lead", "amount": 100 },
+  { "item": "thorium", "amount": 150 },
+  { "item": "plastanium", "amount": 75 }
+],
+"category": "production",
+  "research": "serpulo"
+}
