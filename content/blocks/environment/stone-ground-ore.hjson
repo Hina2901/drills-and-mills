@@ -1,0 +1,5 @@
+  "type": "OreBlock",
+  "itemDrop": "stone",
+  "hasColor": true,
+  "mapColor": "#9B9C9C",
+  "variants": 2

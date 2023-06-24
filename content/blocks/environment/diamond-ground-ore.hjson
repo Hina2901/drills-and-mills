@@ -1,0 +1,6 @@
+  "type": "OreBlock",
+  "groundOre": "true"
+  "itemDrop": "diamond",
+  "hasColor": true,
+  "mapColor": "#03EBFC",
+  "variants": 3

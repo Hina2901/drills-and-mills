@@ -1,0 +1,5 @@
+"type": "OreBlock",
+  "itemDrop": "uranium",
+  "hasColor": true,
+  "mapColor": "#9B9C9C",
+  "variants": 2
