@@ -1,0 +1,65 @@
+{
+  "type": "GenericCrafter",
+  "name": "Silicon Forge",
+  "description": "A better silicon crubicle that is more cost-efficient.",
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 60,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top"
+        "color": "ffed7c"
+      }
+    ]
+  },
+  "updateEffect": "hitMeltdown",
+  "itemCapacity": 30,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 2
+        },
+        {
+          "item": "sand",
+          "amount": 6
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 90
+    },
+    {
+      "item": "lead",
+      "amount": 75
+    },
+    {
+      "item": "graphite",
+      "amount": 25
+    },
+    {
+      "item": "silicon",
+      "amount": 15
+    }
+  ],
+  "category": "crafting",
+  "research": "mod-gate-crafting",
+  "outputItem": {
+    "item": "silicon",
+    "amount": 6
+  },
+  "health": 1450
+}

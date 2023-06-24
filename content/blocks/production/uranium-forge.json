@@ -1,0 +1,76 @@
+{
+  "type": "GenericCrafter",
+  "name": "thorium processor",
+  "description": "A forge that makes thorium.",
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 130,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top"
+        "color": "ffed7c"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top2",
+        "color": "fee650"
+      }
+    ]
+  },
+  "updateEffect": "hitMeltdown",
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        {
+          "item": "uranium",
+          "amount": 6
+        },
+        {
+          "item": "lead",
+          "amount": 6
+        },
+        {
+          "item": "copper",
+          "amount": 4
+        },
+        {
+          "item": "titanium",
+          "amount": 5
+        } 
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 160
+    },
+    {
+      "item": "silicon",
+      "amount": 160
+    },
+    {
+      "item": "titanium",
+      "amount": 140
+    },
+    {
+      "item": "copper",
+      "amount": 25
+    }
+  ],
+  "category": "crafting",
+  "research": "silicon-forge",
+  "outputItem": {
+    "item": "thorium",
+    "amount": 10
+  }
+}
