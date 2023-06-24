@@ -1,0 +1,38 @@
+type: itemTurret
+name: slayer
+description: "Heavy Machinegun that packs a lot of firepower on a reduced 2x2 space."
+health: 700
+squareSprite: true
+size: 2
+range: 250
+reload: 5
+ammoTypes: {
+    stone: {
+        lifetime: 80
+    speed: 4
+    drag: 0.02
+    damage: 30
+    width: 8
+    height: 11
+   }
+    diamond: {
+        lifetime: 100
+    speed: 2.8
+    drag: 0.01
+    damage: 900
+    width: 8
+    height: 11
+   }
+}
+drawer: {
+type: DrawTurret
+basePrefix: "tantros-"
+}
+category: turret
+research: mod-gate-turret
+requirements: [
+    copper/300
+    titanium/165
+    lead/80
+    stone/40
+]
