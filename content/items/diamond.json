@@ -1,0 +1,12 @@
+{
+  "name": "diamond",
+  "description": "A shiny piece of metal! Can be traded to get other resources.",
+  "cost": 2.5,
+  "color": "FFD700",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "research": {
+    "parent": "serpulo"
+  }
+}
