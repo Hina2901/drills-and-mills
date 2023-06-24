@@ -1,0 +1,11 @@
+{
+    displayName : drills and mills mod
+    repo : Hina2901/drills-and-mills
+    name : drills and mills
+
+    author: Hina2901
+    description: Nothing to see here!
+    subtitle: "Drills... mills!"
+    minGameVersion : 140
+    version : "2.5"
+}
