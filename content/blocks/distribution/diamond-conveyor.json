@@ -1,0 +1,28 @@
+{
+  "type": "Conveyor",
+  "name": "diamond conveyor",
+  "description": "A very fast conveyor.",
+  "details": "you hear a faint Speeeeeeedwagggoooooooon in the distance.",
+  "health": 350,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1
+    },
+    {
+      "item": "lead",
+      "amount": 1
+    },
+    {
+      "item": "titanium",
+      "amount": 1
+    },
+    {
+      "item": "diamond",
+      "amount": 1
+    }
+  ],
+  "category": "distribution",
+  "speed": 0.3,
+  "research": "mod-gate-distribution"
+}
