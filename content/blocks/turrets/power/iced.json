@@ -1,0 +1,58 @@
+{
+	name: Iced
+	description: An erekir turret that looks exactly the same as the Force turret.But shoots laser of freezing particles that freezes enemies.
+	type: PowerTurret
+	health: 1440
+	range: 110
+	reload: 120
+	outlineColor: 1E1E26
+	shootY: 1.5
+	size: 2
+	shootSound: laser
+	consumes: {
+		power: 5.66666666666666666666666666666666
+	}
+	shootType: {
+		type: LaserBulletType
+		length: 90
+		width: 30
+		damage: 125
+		colors: [C1BFFB, 827DE8, E8EBFF]
+		status: freezing
+		statusDuration: 300
+		pierce: true
+	}
+	category: turret
+	research: force
+	requirements: [
+		beryllium/90
+		silicon/45
+		graphite/50
+		tungsten/40
+	]
+	
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -extra
+				mirror: true
+				progress: recoil
+				moveX: 2
+				moveY: -2
+				moveRot: -25
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: -25
+						moveX: 2
+						moveY: -2
+					}
+				]
+			}
+		]
+	}
+}
