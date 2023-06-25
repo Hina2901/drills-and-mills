@@ -1,5 +1,2 @@
 # drills-and-mills
 a mindustry mod that adds content
-note:there is a problem i don't know how to make multifolder files so go find the hinamodtest.zip and move it to your mods folder after moving hinamodtest.zip file to the mods folder delete this mod 
-you need a file manager if your on mobile if your on mobile use/install the best file managers 1.zachiver
-2.filemanager+ 3.etc
