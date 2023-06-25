@@ -1,5 +1,5 @@
 type: itemTurret
-name: slayer
+name: Force
 description: "An erekir turret.Uses beryllium and tungsten as ammo."
 health: 1890
 squareSprite: false
