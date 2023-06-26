@@ -7,7 +7,7 @@
 	reload: 120
 	outlineColor: 1E1E26
 	shootY: 1.5
-	size: 2
+	size: 3
 	shootSound: laser
 	consumes: {
 		power: 5.66666666666666666666666666666666
