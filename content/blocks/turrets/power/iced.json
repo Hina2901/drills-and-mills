@@ -23,7 +23,7 @@
 		pierce: true
 	}
 	category: turret
-	research: force
+	research: erekir
 	requirements: [
 		beryllium/90
 		silicon/45
