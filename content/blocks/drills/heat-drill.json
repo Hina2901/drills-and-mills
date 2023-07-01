@@ -1,0 +1,30 @@
+{
+  "name": "Heat Drill",
+  "description": "A drill.Super efficient.Uses built in heater to mine.",
+  "type": "Drill",
+  "size": 3,
+  "liquidCapacity": 300,
+  "tier": 5,
+  "drillTime": 5,
+  "consumes": {
+  "power": 5.6666,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 10
+    }
+    {
+      "item": "silicon",
+      "amount":100
+},
+  ],
+  "category": "production",
+  "research": "serpulo"
+}
