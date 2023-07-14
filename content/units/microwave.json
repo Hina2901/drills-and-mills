@@ -1,0 +1,81 @@
+{
+  "type": "flying",
+  "name": "[green]Microwave",
+  "description": "Defends the any core from enemies. Builds structures quickly.",
+  "drag": 0.15,
+  "speed": 4.25,
+  "research": "delta",
+  "maxVelocity": 3,
+  "canBuild": true,
+  "buildSpeed": 4,
+  "mineSpeed": 10,
+  "mineTier": 5,
+  "armor": 20,
+  "buildTier": 5,
+  "mass": 10,
+  "commandLimit": 99,
+  "health": 1090,
+  "flying": true,
+  "rotateWeapon": true,
+  "rotatespeed": 0.06,
+  "baseRotateSpeed": 0.05,
+  "weapons": [
+    {
+      "name": "microwave-weapon",
+      "range": 170,
+      "x": 3,
+      "y": 2,
+      "reload": 5,
+      "spacing": 0,
+      "mirror": true,
+        "alternate": true
+      "shootSound": "pew",
+      "bullet": {
+        "type": "StandardBulletType",
+        "speed": 10,
+        "damage": 85,
+        "pierce": true,
+        "pierceCap": 10,
+        "splashDamage": 6,
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
+        "splashDamageRadius": 5,
+        "homingRange": 170,
+        "homingPower": 0.18,
+        "healPercent": 0,
+        "collidesTeam": true,
+        "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
+                    "rotation": 3,
+                    "sizeFrom": 0,
+                    "sizeTo": 5
+                },
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
+                    "rotation": 3,
+                    "sizeFrom": 5,
+                    "sizeTo": 0
+                }
+            ]
+        }
+      }
+    }
+  ],
+    "abilities": [
+     {
+      "type": "ForceFieldAbility",
+      "radius": 80,
+      "regen": 40,
+      "max": 240,
+      "cooldown": 290
+    } 
+  ],
+"hitSize": 10
+}
