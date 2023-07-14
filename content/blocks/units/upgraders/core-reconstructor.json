@@ -1,13 +1,14 @@
 {
     "type": "Reconstructor",
     "name": "[green]Core Reconstructor",
-    "description": "Upgrades the burner core-unit.",
+    "description": "Upgrades the core-units.",
     "health": 2000,
     "size": 3,
   "liquidCapacity": 400,
     "constructTime": 200,
     "upgrades": [
         ["burner", "radiated"]
+        ["gamma",microwave"]
     ],
     "consumes": {
         "power": 22,
