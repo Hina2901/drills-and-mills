@@ -8,7 +8,7 @@
     "constructTime": 200,
     "upgrades": [
         ["burner", "radiated"]
-        ["gamma",microwave"]
+        ["gamma","microwave"]
     ],
     "consumes": {
         "power": 22,
