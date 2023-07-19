@@ -1,0 +1,44 @@
+Type: UnitAssembler
+health: 2500
+size: 4
+plans: [
+  {
+  unit: microwave
+  requirements: [
+    gamma/1
+    surge-wall/5
+    phase-wall/1
+  ]
+  time: 4500
+  }
+    {
+  unit: radiated
+  requirements: [
+    burner/1
+    phase-wall/5
+    plastanium-wall/9
+  ]
+  time: 4500
+  }
+   {
+  unit: gamma
+  requirements: [
+    beta/1
+    phase-wall/5
+    surge-wall/2
+  ]
+  time: 100
+  }
+]
+consumes: {
+power: 5
+}
+category: units
+research: exponential-reconstructor
+researchCostMultiplier: 1.125
+requirements: [
+  copper/320
+  surge-alloy/100
+  titanium/200
+  plastanium/450
+]
