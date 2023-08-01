@@ -64,5 +64,5 @@
 }
     ],
     "category": "units",
-    "research": "core-units-constructor"
+    "research": "core-units-factory"
  }
