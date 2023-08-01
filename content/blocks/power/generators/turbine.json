@@ -31,7 +31,7 @@ drawer: {
  ]
 }
 research: {
-parent: mod-gate-power
+parent: erekir
 requirements: [
 lead/21
 copper/10
