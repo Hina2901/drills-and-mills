@@ -1,0 +1,32 @@
+{
+  "name": "2×2 Constructor",
+  "description": "The small constructor A.K.A serpulo constructor.",
+  "health": 3450,
+  "itemCapacity": 400
+  "size": 3,
+  "consumes": {
+  "power": 9,
+  }
+},
+  "buildTime" 6,
+  "requirements": [
+  {
+    "item": "copper",
+    "amount": 300
+  }
+  {
+    "item": "lead",
+    "amount": 250
+  }
+  {
+    "item": "silicon",
+    "amount": 160
+  }
+  {  
+    "item": "titanium",
+    "amount": 400
+},
+  ],
+  "category": "units",
+  "research": "serpulo"
+}
