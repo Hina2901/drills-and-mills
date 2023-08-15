@@ -1,4 +1,5 @@
 {
+  "Type": "constructor
   "name": "2×2 Constructor",
   "description": "The small constructor A.K.A serpulo constructor.",
   "health": 3450,
@@ -6,6 +7,7 @@
   "size": 3,
   "consumes": {
   "power": 9,
+},    
   }
   "buildTime" 6,
   "requirements": [
@@ -26,7 +28,6 @@
     "amount": 400
 },
   ],
-  "output": 2×2
   "category": "units",
   "research": "serpulo"
 }
