@@ -1,4 +1,6 @@
 Type: UnitAssembler
+name: Core assembler
+description: For people who likes fanciness and waste more resources!
 health: 2500
 size: 4
 plans: [
