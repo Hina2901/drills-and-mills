@@ -56,7 +56,7 @@
     }
   ],
   "category": "crafting",
-  "research": "mod-gate-crafting",
+  "research": "drill",
   "outputItem": {
     "item": "silicon",
     "amount": 6
