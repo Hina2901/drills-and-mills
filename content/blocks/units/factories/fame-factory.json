@@ -1,0 +1,49 @@
+{
+  "type": "unitFactory",
+  "name": "Fame factory",
+  "description": "Makes the fame unit.",
+  "size": 5,
+  "health": 1200,
+  "consumes": {
+  "power": 2,
+},
+  "plans": [
+    {
+      "unit": "fame",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 300,
+        },
+        {
+          "item": "graphite",
+          "amount": 400,
+        },
+        {
+          "item": "plastanium",
+          "amount": 200,
+        },
+        {
+          "item": "titanium",
+          "amount": 300,
+        }
+      ],
+      "time": 200,
+  ],
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200,
+    },
+    {
+      "item": "silicon",
+      "amount": 400,
+    },
+    {
+      "item": "plastanium",
+      "amount": 300,
+    },
+],
+  "category": "units",
+  "research": "core-reconstructor",
+}
