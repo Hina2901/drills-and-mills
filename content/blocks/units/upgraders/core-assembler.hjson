@@ -36,7 +36,7 @@ consumes: {
 power: 5
 }
 category: units
-research: exponential-reconstructor
+research: core-reconstructor
 researchCostMultiplier: 1.125
 requirements: [
   copper/320
