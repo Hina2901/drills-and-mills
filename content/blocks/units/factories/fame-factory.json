@@ -29,7 +29,8 @@
         }
       ],
       "time": 200,
-    },
+    }
+  ],
   "requirements": [
     {
       "item": "copper",
