@@ -46,5 +46,5 @@
   { "item": "plastanium", "amount": 75 }
 ],
 "category": "production",
-  "research": "serpulo"
+  "research": "pressurizer-drill"
 }
