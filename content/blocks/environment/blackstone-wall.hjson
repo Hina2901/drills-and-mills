@@ -1,0 +1,5 @@
+{
+ "type": "staticWall",
+ "name": "Blackstone wall",
+ "attributes": ["stone"]
+}

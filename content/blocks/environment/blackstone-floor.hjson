@@ -1,0 +1,6 @@
+{
+ "type": "Floor",
+ "name": "Blackstone floor",
+ "attributes": ["stone"]
+ "variants": 2
+}
