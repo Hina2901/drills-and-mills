@@ -1,0 +1,95 @@
+localizedName: Polums
+
+alwaysUnlocked:true
+
+#the mesh of the planet
+mesh: {
+ type: NoiseMesh
+ planet: polums
+ seed: 24
+ divisions: 19
+ color1: #b04854
+ color2: #050026
+ color3: #ba904c
+ radius: 3.4
+ octaves: 8
+ persistence: 1
+ scale: 2
+ mag: 2
+}
+
+#the mesh used for clouds. commented out since this planet has no clouds
+#cloudmesh: {}
+
+#you can't declare a type for this, but you can at least modify the existing one's fields
+generator: {
+ min: 200
+ max: 300
+ radMin: 300
+ radMax: 300
+ berylChance: 2
+ iceChance: 0
+}
+
+#basically, spacing between a parent (this) and satellites
+orbitSpacing: 9
+
+#radius of this planet's sphere
+radius:3.5
+
+#minimun camera zoom
+minZoom: 3.9
+
+#whether to draw the orbit
+drawOrbit: true
+
+#basically, atmosphere offset
+atmosphereRadIn: 0.5
+atmosphereRadOut: 0.8
+#whether this planet can be landed on
+accessible: true
+
+#day-night cycle
+updateLightning: true
+
+#a seed of the generator. if -1, planet id is picked instead
+sectorSeed: 4567
+
+#whether this blooms
+bloom: false
+
+#this is self-explanatory
+visible: true
+
+#the color of the atmosphere
+atmosphereColor: #ba904c
+
+#the color of the planet's icon displayed in top-left
+iconColor: #b04854
+
+#whether this has atmosphere
+atmosphere: true
+
+#whether simulate waves when off-planet
+waveSimulation: true
+
+#whether sectors are cleared when lost
+clearSectorOnLose: false
+
+#whether waves are re-created when a sector is lost
+allowWaves: true
+
+#icon's name display on top-left
+icon: "commandRally"
+
+#default core block for launching
+defaultCore: core-flames
+
+#the parent of the planet
+parent: sun
+
+#the parent of the whole solar system the planet is in
+solarSystem: sun
+
+#possible planets that could be landed into from this planet. probably useless since interplanetary accelerator is still not working
+launchCandidates: []
